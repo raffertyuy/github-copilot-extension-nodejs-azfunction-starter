@@ -1,0 +1,14 @@
+{
+  "name": "github-copilot-extension-nodejs-azfunction-starter",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.0.0",
+    "@copilot-extensions/preview-sdk": "^5.0.1",
+    "@octokit/core": "^6.1.2"
+  },
+  "main": "src/*.mjs"
+}
